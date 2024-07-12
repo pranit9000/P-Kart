@@ -1,0 +1,35 @@
+.cart {
+  padding: 20px;
+  background-image: url(../../public/img/Cart.jpg);
+  width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.cart-total button {
+  padding: 10px 20px;
+  font-size: 16px;
+}

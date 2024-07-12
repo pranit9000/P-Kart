@@ -1,0 +1,39 @@
+.navbarHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  font-family: cursive;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: cursive;
+  color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 18px;
+  color: white;
+}
+
+.logo h1 {
+  font-family: cursive;
+
+}

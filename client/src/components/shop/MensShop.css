@@ -1,0 +1,59 @@
+.mens-shop {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.mens-shop h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: 50%;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.product-card button {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product-card button:hover {
+  background-color: #ff4500;
+}
+.cart p {
+  font-size: 18px;
+  font-weight: bold;
+}
